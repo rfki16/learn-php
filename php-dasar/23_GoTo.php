@@ -5,35 +5,35 @@
 goto a;
 echo "Hello World" . PHP_EOL;
 
-a: 
+a:
 echo "hello A" . PHP_EOL;
 
 // complex example
 $count = 1;
 
-while(true){
+while (true) {
     echo "ini perulangan ke - $count" . PHP_EOL;
-    
+
     // if $count more than 10
-    if ($count >= 10){
+    if ($count >= 10) {
         goto end;
     }
 
     $count++;
 }
 
-end : 
+end:
 echo "End Looping";
 
 $count = 1;
 
-while (true){
-    echp "ini perulangan ke - $count";
-    if ($count >= 10){
-        goto end;
-    }
-    $count++;
-}
+// while (true) {
+//     echo "ini perulangan ke - $count";
+//     if ($count >= 10) {
+//         goto end;
+//     }
+//     $count++;
+// }
 
-end : 
-echo "endd";
+// end:
+// echo "endd";
